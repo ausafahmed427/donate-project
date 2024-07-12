@@ -1,0 +1,323 @@
+@font-face {
+    font-family: "QanelasSoftUltraLight"; /* 100 */
+    src: url("../font/QanelasSoftUltraLight.otf");
+    src: url("../font/QanelasSoftUltraLight.otf") format("opentype");
+  }
+
+  @font-face {
+      font-family: "QanelasSoftLight";
+      /* 200 */
+      src: url("../font/QanelasSoftLight.otf");
+      src: url("../font/QanelasSoftLight.otf") format("opentype");
+  }
+
+  @font-face {
+      font-family: "QanelasSoftThin"; /* 300 */
+      src: url("../font/QanelasSoftThin.otf");
+      src: url("../font/QanelasSoftThin.otf") format("opentype");
+  }
+
+   @font-face {
+       font-family: "QanelasSoftRegular"; /* 400 */
+       src: url("../font/QanelasSoftRegular.otf");
+       src: url("../font/QanelasSoftRegular.otf") format("opentype");
+   }
+
+   @font-face {
+       font-family: "QanelasSoftMedium"; /* 500 */
+       src: url("../font/QanelasSoftMedium.otf");
+       src: url("../font/QanelasSoftMedium.otf") format("opentype");
+   }
+    
+   @font-face {
+       font-family: "QanelasSoftSemiBold"; /* 600 */
+       src: url("../font/QanelasSoftSemiBold.otf");
+       src: url("../font/QanelasSoftSemiBold.otf") format("opentype");
+   }
+
+   @font-face {
+       font-family: "QanelasSoftBold"; /* 700 */
+       src: url("../font/QanelasSoftBold.otf");
+       src: url("../font/QanelasSoftBold.otf") format("opentype");
+   }
+
+   @font-face {
+       font-family: "QanelasSoftHeavy"; /* 800 */
+       src: url("../font/QanelasSoftHeavy.otf");
+       src: url("../font/QanelasSoftHeavy.otf") format("opentype");
+   }
+
+   @font-face {
+       font-family: "QanelasSoftExtraBold"; /* 900 */
+       src: url("../font/QanelasSoftExtraBold.otf");
+       src: url("../font/QanelasSoftExtraBold.otf") format("opentype");
+   }
+
+:root {
+    --100: "QanelasSoftUltraLight";
+    --200: "QanelasSoftLight";
+    --300: "QanelasSoftThin";
+    --400: "QanelasSoftRegular";
+    --500: "QanelasSoftMedium";
+    --600: "QanelasSoftSemiBold";
+    --700: "QanelasSoftBold";
+    --800: "QanelasSoftHeavy";
+    --900: "QanelasSoftExtraBold";
+}
+   
+
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 100%;
+    padding: 0 10%;
+    background: transparent;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: end;
+}
+#navbarNav .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-family: var(--400);
+    font-size: 20px;
+
+}
+.row .col-lg-6 img {
+    width: 80%;
+}
+
+.main {
+    background: url(file:///C:/wetransfer_html-css_2023-09-20_0210/html%20css/TAHA%20BHAI%20WORK/assets/images/donation-slicing/Bg.png);
+    background-repeat: no-repeat;
+    background-color: #E2D2C5;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 8% 5%;
+    margin-top: -110px;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background: transparent !important;
+    z-index: 0;
+    padding: 30px 0;
+}
+.image-right {
+    text-align: center;
+}
+.banner {
+    align-items: center;
+}
+.banner .col-lg-6 {
+    color: #fff;
+    padding: 0;
+}
+.banner .col-lg-6 h1 {
+    font-size: 50px;
+    font-family: var(--700);
+    font-weight: bold;
+    width: 90%;
+}
+.container-fluid img {
+    width: 150px;
+}
+.container-fluid {
+    padding: 0 !important;
+}
+#navbarNav .navbar-nav .nav-item {
+    padding: 0 10px;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary .container-fluid {
+    align-items: center;
+}
+.banner .col-lg-6 p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.banner .col-lg-6 .button-banner {
+    background-color: red;
+    padding: 12px 30px;
+    color: #fff;
+    text-decoration: none;
+    border: 5px solid;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.section-1 {
+    background: #E2D2C5;
+    padding: 5%;
+}
+.section-1 h1 {
+    text-align: center;
+}
+.card {
+    background: transparent !important;
+    border: none !important;
+    padding-top: 80px;
+    flex-direction: row !important;
+}
+.main-card img {
+    width: 35%;
+}
+.main-card {
+    padding: 30px;
+    border: 3px solid #fff;
+    text-align: center;
+    border-radius: 30px;
+    background: #d6cac0;
+}
+.main-card h2 {
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 2;
+}
+.main-card p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    line-height: 25px;
+}
+
+.section-2 {
+    background: #E2D2C5;
+    padding: 5%;
+}
+.section-2 .row .col-lg-6 img {
+    width: 100%;
+}
+.something:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #000000;
+    left: -30%;
+    top: 50%;
+    position: absolute;
+}
+
+.something {
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    max-width: 250px;
+    position: relative;
+    margin-left: 60px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.why-we-are {
+    font-size: 50px;
+    font-family: var(--700);
+}
+
+.left {
+    padding-left: 30px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paragraph-1 {
+    font-size: 16px;
+    font-family: 'Poppins';
+    line-height: 2;
+}
+.paragraph-2 {
+    font-size: 16px;
+    font-family: 'Poppins';
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+.section-button-2 {
+    background-color: red !important;
+    padding: 10px 20px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    border: 5px solid #fff !important;
+    border-radius: 50px !important;
+    font-size: 16px !important;
+    width: 30% !important;
+    text-align: center !important;
+}
+
+.section-3 {
+    background: #E2D2C5;
+    padding: 5%;
+    border-bottom: 2px solid;
+}
+.section-3-heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--700);
+}
+
+.section-3-paragraph {
+    text-align: center;
+    padding: 0px 8%;
+    font-size: 20px;
+    font-family: poppins;
+    padding-top: 30px;
+}
+
+.section-3 .main-card {
+    background: transparent;
+    border: none;
+}
+
+.section-3 .main-card h2 {
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 2;
+    margin: 0;
+}
+
+.section-3 .main-card p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    line-height: 15px;
+}
+
+.footer {
+    background: #E2D2C5;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer-1 img {
+    width: 14px;
+}
+.footer .footer-1 .facebook {
+    width: 8px;
+}
+.footer-1 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footer p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 0;
+    margin: 0;
+}
+.footer .row {
+    align-items: center;
+}
+.footer .row .back-to-top {
+    text-align: right;
+}
